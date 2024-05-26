@@ -1,0 +1,22 @@
+.heading{
+    color: crimson;
+    background:#00ff00;
+}
+
+button{
+    background-color: blue;
+}
+
+p{
+
+    text-align:center;
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+span{
+   text-align: center;
+    text-transform: capitalize;
+    color: cyan;
+}
+

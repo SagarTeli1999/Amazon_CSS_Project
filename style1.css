@@ -1,0 +1,33 @@
+div{
+height: 100px;
+background-color: pink;
+width: 100px;
+border-width: 2px;
+border-style: solid;
+border-color: blue;
+text-align: right;
+border-radius: 10px; 
+/*border-radius:is used for making edges in round shapes*/
+/*border-radius: 50%;*/
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+
+h1{
+    height: 75px;
+    width: 200px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: dotted;
+    border-color:red;
+    text-align: center; 
+    /*text should center align of that particular box*/
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}

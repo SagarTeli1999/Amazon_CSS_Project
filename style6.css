@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+
+}
+
+
+div{
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;      /*we r not applying flexbox css part directly to the items/elements,apply on main flex container that will automatically apply to flexitems*/
+    height: 500px;
+    display: flex;     /*bcz of display flex all items are coming into container*/
+    flex-direction: row; /* flex items are arranged bydefault from left to right. i.e main axis(x-axis) direction from L to R*/
+    flex-direction: row-reverse; /* flex items are arranged  from right to left. i.e main axis(x-axis) direction from R to L*/
+   /* flex-direction: column;      flex items are arranged  from right to left. i.e main axis(x-axis) direction from R to L*/
+   /* flex-direction: column-reverse;  /* flex items are arranged  from right to left. i.e main axis(x-axis) direction from R to L*/
+  justify-content: center; /*it keep all boxes in middleposition*/
+  /*justify-content: space-around;  it will keep same space in between boxes*/ 
+  justify-content: space-evenly;   /*it will keep same space in between all boxes*/ 
+  flex-wrap: wrap-reverse;
+
+
+
+
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color:green;
+}
+
+#box3{
+    background-color: blue;
+}
+
+#box4{
+    background-color: chartreuse;
+}
+#box5{
+    background-color: red;
+}

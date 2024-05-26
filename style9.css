@@ -1,0 +1,40 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    transition: all 2s ease-in 1s;  /*1s is delaytime after 1s output will dispaly*/
+    /*transition: all 2s steps(5) 1s;*/
+  top:100px;
+  left: 100px;
+   /* transform: rotate(45deg);*/
+   transform: rotate(180deg);
+  /* rotate: x 180deg;*/
+  /*transform: scale(0.5);*/
+  /*transform: scale(1);*/
+  transform: scale(1,1);
+  margin-top: 75px;
+  margin-left: 75px;
+
+
+} 
+
+div:hover {
+background-color: red;
+color: white;
+font-size: 20px;
+transform: translateX(200px);
+/*transform: translateY(200px);*/
+/*transform: translateY(-200px);*/
+/*transform: translateX(-200px);*/
+/*transform: translate(200px,80px);*/
+transform: skew(75deg);   /*completely shrink in 75degree*/ 
+
+
+
+}
+
+div:active{
+background-color: pink;  /*press and hold for sec then u will get output on browser side*/
+
+}
